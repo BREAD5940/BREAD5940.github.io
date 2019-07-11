@@ -36,8 +36,8 @@ secondary_link: https://github.com/frc5024/ThriftyField
 
 
 ## JEKYLL CONFIG ##
-collections:
-  - robots
+# collections:
+#   - robots
 
 markdown: kramdown
 theme: minima
