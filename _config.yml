@@ -21,14 +21,14 @@ contact: http://www.TODO.org/contact
 github: BREAD5940
 
 # Featured projects
-featured_image: https://scontent-yyz1-1.cdninstagram.com/vp/4c971a5eb1e5cefcf5b009d4666b738f/5D3801CA/t51.2885-15/e35/51738280_818885808458858_1015785813538071128_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com
+# featured_image: https://scontent-yyz1-1.cdninstagram.com/vp/4c971a5eb1e5cefcf5b009d4666b738f/5D3801CA/t51.2885-15/e35/51738280_818885808458858_1015785813538071128_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com
 primary_title: 2019 Codebase
-primary_description: After months of experimentation and three complete rewrites of our base code, we have built a strong base for this year's robot. This year, efficiency is key. Our code runs as fast as possible to give our drivers the most flexibility we can provide.
-primary_link: https://github.com/frc5024/DeepSpace
+primary_description: ReeeeEEEEEEEEEEEE
+primary_link: https://github.com/BREAD5940/frc-java-command-codebase
 
-secondary_title: ThriftyField
-secondary_description: Our newest offseason project. We are in the progress of writing our own fully custom Field Management System (FMS) software. ThriftyField is written in python and fully open source. It supports any current version of the Driverstation software.
-secondary_link: https://github.com/frc5024/ThriftyField
+secondary_title: Offseason Codebase
+secondary_description: Just in case the code wasn't complicated enough already, we rewrote it in Kotlin. It's also now 3.5 times more concise!
+secondary_link: https://github.com/BREAD5940/Offseason-Croissant
 
 # To add, remove, or edit a robot, modify the files in the _robots directory
 
@@ -36,10 +36,22 @@ secondary_link: https://github.com/frc5024/ThriftyField
 
 
 ## JEKYLL CONFIG ##
-# collections:
-#   - robots
+collections:
+  - robots
 
 markdown: kramdown
 theme: minima
 plugins:
-- jekyll-feed
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
